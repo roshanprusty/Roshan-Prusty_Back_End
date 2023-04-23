@@ -59,7 +59,7 @@ trade_inv = {
     "quantity" : 30
     },
     6:{
-    "buySellIndicator" : "Sell",
+    "buySellIndicator" : "Buy",
     "price" : 29.99,
     "quantity" : 10
     },
@@ -69,7 +69,7 @@ trade_inv = {
     "quantity" : 77
     },
     8:{
-    "buySellIndicator" : "Sell",
+    "buySellIndicator" : "Buy",
     "price" : 98.76,
     "quantity" : 546
     },
@@ -79,7 +79,7 @@ trade_inv = {
     "quantity" : 789
     },
     10:{
-    "buySellIndicator" : "Sell",
+    "buySellIndicator" : "Buy",
     "price" : 390.99,
     "quantity" : 456
     },
@@ -89,7 +89,7 @@ trade_inv = {
     "quantity" : 123
     },
     12:{
-    "buySellIndicator" : "Sell",
+    "buySellIndicator" : "Buy",
     "price" : 768.54,
     "quantity" : 976
     },
@@ -99,7 +99,7 @@ trade_inv = {
     "quantity" : 675
     },
     14:{
-    "buySellIndicator" : "Sell",
+    "buySellIndicator" : "Buy",
     "price" : 65.09,
     "quantity" : 234
     },
@@ -107,234 +107,159 @@ trade_inv = {
     "buySellIndicator" : "Sell",
     "price" : 76.69,
     "quantity" : 67
-    },
-    16:{
-    "buySellIndicator" : "Sell",
-    "price" : 66.66,
-    "quantity" : 345
-    },
-    17:{
-    "buySellIndicator" : "Sell",
-    "price" : 57.98,
-    "quantity" : 23
-    },
-    18:{
-    "buySellIndicator" : "Sell",
-    "price" : 988.897,
-    "quantity" : 78
-    },
-    19:{
-    "buySellIndicator" : "Sell",
-    "price" : 34.90,
-    "quantity" : 34
-    },
-    20:{
-    "buySellIndicator" : "Sell",
-    "price" : 324.967,
-    "quantity" : 98
-    },
+    }
 }
 
 inventory = {
     1:{
-    "asset_class" : "Bond",
+    "asset_class" : "Largecap",
     "counterparty" : "buyer",
-    "instrument_id" : "TSLA",
-    "instrument_name" : "smartphone",
+    "instrument_id" : "AAPL",
+    "instrument_name" : "Apple",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[1],
     "trade_id" : 1,
     "trader"  : "Arun"
     },
     2:{
-    "asset_class" : "Equity",
+    "asset_class" : "Midcap",
     "counterparty" : "seller",
-    "instrument_id" : "AMZN",
-    "instrument_name" : "laptop",
+    "instrument_id" : "FTNT",
+    "instrument_name" : "Fortinet",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[2],
     "trade_id" : 2,
     "trader"  : "Roshan"
     },
     3:{
-    "asset_class" : "Forex",
+    "asset_class" : "Smallcap",
     "counterparty" : "buyer",
-    "instrument_id" : "AAPL",
-    "instrument_name" : "tab",
+    "instrument_id" : "REXR",
+    "instrument_name" : "Rexford",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[3],
     "trade_id" : 3,
     "trader"  : "Ayush"
     },
     4:{
-    "asset_class" : "Bond",
+    "asset_class" : "Internationalequities",
     "counterparty" : "seller",
-    "instrument_id" : "AMZN",
-    "instrument_name" : "smartphone",
+    "instrument_id" : "BABA",
+    "instrument_name" : "Alibaba",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[4],
     "trade_id" : 4,
     "trader"  : "Divyansh"
     },
     5:{
-    "asset_class" : "Equity",
+    "asset_class" : "Emergingmarket",
     "counterparty" : "buyer",
-    "instrument_id" : "AAPL",
-    "instrument_name" : "smartphone",
+    "instrument_id" : "YNDX",
+    "instrument_name" : "Yandex",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[5],
     "trade_id" : 5,
     "trader"  : "Mansi"
     },
     6:{
-    "asset_class" : "Bond",
-    "counterparty" : "buyer",
-    "instrument_id" : "TSLA",
-    "instrument_name" : "smartphone",
+    "asset_class" : "Investmentgrade",
+    "counterparty" : "seller",
+    "instrument_id" : "GOOG",
+    "instrument_name" : "AlphabetInc",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[6],
     "trade_id" : 6,
-    "trader"  : "Arun"
+    "trader"  : "simran"
     },
     7:{
-    "asset_class" : "Equity",
+    "asset_class" : "Highyield",
     "counterparty" : "buyer",
-    "instrument_id" : "AMZN",
-    "instrument_name" : "tab",
+    "instrument_id" : "HYG",
+    "instrument_name" : "iBoxx",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[7],
     "trade_id" : 7,
-    "trader"  : "Arun"
+    "trader"  : "rohit"
     },
     8:{
-    "asset_class" : "Bond",
-    "counterparty" : "buyer",
-    "instrument_id" : "TSLA",
-    "instrument_name" : "smartphone",
+    "asset_class" : "Governmentbonds",
+    "counterparty" : "seller",
+    "instrument_id" : "TLT",
+    "instrument_name" : "iShares",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[8],
     "trade_id" : 8,
-    "trader"  : "Arun"
+    "trader"  : "aman"
     },
     9:{
-    "asset_class" : "Forex",
+    "asset_class" : "Treasurybonds",
     "counterparty" : "buyer",
-    "instrument_id" : "AAPL",
-    "instrument_name" : "tab",
+    "instrument_id" : "30YR",
+    "instrument_name" : "30year",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[9],
     "trade_id" : 9,
-    "trader"  : "Arun"
+    "trader"  : "nilesh"
     },
     10:{
-    "asset_class" : "Equity",
-    "counterparty" : "buyer",
-    "instrument_id" : "AMZN",
-    "instrument_name" : "smartphone",
+    "asset_class" : "Municipalbonds",
+    "counterparty" : "seller",
+    "instrument_id" : "MUB",
+    "instrument_name" : "iShares",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[10],
     "trade_id" : 10,
-    "trader"  : "Arun"
+    "trader"  : "raghav"
     },
     11:{
-    "asset_class" : "Bond",
+    "asset_class" : "Realestate",
     "counterparty" : "buyer",
-    "instrument_id" : "TSLA",
-    "instrument_name" : "smartphone",
+    "instrument_id" : "SPG",
+    "instrument_name" : "SimonPropertyGroup",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[11],
     "trade_id" : 11,
-    "trader"  : "Arun"
+    "trader"  : "kuldeep"
     },
     12:{
-    "asset_class" : "Forex",
-    "counterparty" : "buyer",
-    "instrument_id" : "AAPL",
-    "instrument_name" : "tab",
+    "asset_class" : "Physicalrealestate",
+    "counterparty" : "seller",
+    "instrument_id" : "MLS",
+    "instrument_name" : "MLSlistings",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[12],
     "trade_id" : 12,
-    "trader"  : "Arun"
+    "trader"  : "aayush"
     },
     13:{
-    "asset_class" : "Equity",
+    "asset_class" : "Commodities",
     "counterparty" : "buyer",
-    "instrument_id" : "AMZN",
-    "instrument_name" : "smartphone",
+    "instrument_id" : "GC",
+    "instrument_name" : "COMEXGoldFutures",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[13],
     "trade_id" : 13,
-    "trader"  : "Arun"
+    "trader"  : "manoj"
     },
     14:{
-    "asset_class" : "Bond",
-    "counterparty" : "buyer",
-    "instrument_id" : "TSLA",
-    "instrument_name" : "tab",
+    "asset_class" : "currencies",
+    "counterparty" : "seller",
+    "instrument_id" : "usd",
+    "instrument_name" : "usdollar",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[14],
     "trade_id" : 14,
-    "trader"  : "Arun"
+    "trader"  : "om"
     },
     15:{
-    "asset_class" : "Equity",
+    "asset_class" : "cryptocurrencies",
     "counterparty" : "buyer",
-    "instrument_id" : "AAPL",
-    "instrument_name" : "smartphone",
+    "instrument_id" : "btc",
+    "instrument_name" : "bitcoin",
     "trade_date_time" : dt.datetime.now(),
     "trade_details" : trade_inv[15],
     "trade_id" : 15,
-    "trader"  : "Arun"
-    },
-    16:{
-    "asset_class" : "Bond",
-    "counterparty" : "buyer",
-    "instrument_id" : "AMZN",
-    "instrument_name" : "tab",
-    "trade_date_time" : dt.datetime.now(),
-    "trade_details" : trade_inv[16],
-    "trade_id" : 16,
-    "trader"  : "Arun"
-    },
-    17:{
-    "asset_class" : "Equity",
-    "counterparty" : "buyer",
-    "instrument_id" : "TSLA",
-    "instrument_name" : "smartphone",
-    "trade_date_time" : dt.datetime.now(),
-    "trade_details" : trade_inv[17],
-    "trade_id" : 17,
-    "trader"  : "Arun"
-    },
-    18:{
-    "asset_class" : "Bond",
-    "counterparty" : "buyer",
-    "instrument_id" : "AMZN",
-    "instrument_name" : "tab",
-    "trade_date_time" : dt.datetime.now(),
-    "trade_details" : trade_inv[18],
-    "trade_id" : 18,
-    "trader"  : "Arun"
-    },
-    19:{
-    "asset_class" : "Bond",
-    "counterparty" : "buyer",
-    "instrument_id" : "AAPL",
-    "instrument_name" : "smartphone",
-    "trade_date_time" : dt.datetime.now(),
-    "trade_details" : trade_inv[19],
-    "trade_id" : 19,
-    "trader"  : "Ram"
-    },
-    20:{
-    "asset_class" : "Forex",
-    "counterparty" : "buyer",
-    "instrument_id" : "AMZN",
-    "instrument_name" : "tab",
-    "trade_date_time" : dt.datetime.now(),
-    "trade_details" : trade_inv[20],
-    "trade_id" : 20,
-    "trader"  : "Rohan"
+    "trader"  : "nitish"
     }
 }
 
