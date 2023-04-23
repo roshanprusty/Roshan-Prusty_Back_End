@@ -1,3 +1,0 @@
-# In this modified implementation, if the counterparty query parameter is specified in the URL, the function filters the inventory dictionary to only include trades that have a counterparty key that matches the specified value. If counterparty is not specified, the function returns the entire inventory dictionary.
-
-# You can test this implementation by sending a GET request to /get-trade?counterparty=buyer (assuming "buyer" is a valid value for the counterparty field in your inventory data). This should return only the trades where the counterparty value is "buyer".
